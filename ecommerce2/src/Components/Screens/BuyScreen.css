@@ -1,0 +1,37 @@
+.buyscreen-main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyscreen-main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.buyscreen-main:hover {
+    transform: rotate(5deg);
+}
+
+.buyscreen-main h1 {
+font-family: Lato;
+padding-bottom: 10px;
+font-weight: 100;
+font-size: 25px;
+letter-spacing: .5px;
+}
+
+.buyscreen-main p {
+font-family: Lato;
+letter-spacing: 1px;
+}

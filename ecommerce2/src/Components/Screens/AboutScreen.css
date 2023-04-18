@@ -1,0 +1,60 @@
+.skills {
+   padding-bottom: 50px;
+}
+.skills h1 {
+    font-family: 'Lato';
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 32px;
+    
+}
+
+.aboutscreen-description {
+    font-family: 'PlayfairDisplay';
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 18px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+
+.skills-container {
+    display: flex;
+    gap: 20px
+}
+
+
+.skills-title {
+    font-family: 'Lato';
+    font-size: 24px;
+}
+
+.skills-text {
+    padding-top: 10px;
+    font-family: 'Source Sans Pro';
+}
+
+
+.skills-main {
+    margin: 0 auto;
+    margin-bottom: 30px;
+   text-align: left;
+   padding: 15px 30px;
+   box-shadow: 0px 4px 8px -2px rgba(9, 30, 66, 0.25), 0px 0px 0px 1px rgba(9, 30, 66, 0.08);
+    width: 400px;
+    letter-spacing: .5px;
+    transition: 0.5s all;
+}
+
+
+.skills-main:hover {
+    box-shadow: 0 0 0 2px black, 8px 8px 0 0 black;
+}
+
+.skills a {
+    color: black;
+    text-decoration: underline;
+}
