@@ -14,7 +14,6 @@
 
 .edit-account-main-box { 
     height: 550px;
-    width: 1000px;
     z-index: 80;
     position: absolute;
     padding: 40px;
@@ -30,6 +29,35 @@
 
 .edit-save-cancel-btns {
  padding: 10px;
+ display: flex;
+ gap: 10px;
+}
+
+.email-edit {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid grey;
+}
+
+.cancel-edit-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 100px;
+    cursor: pointer;
+}
+
+.edit-account-main-box h4 {
+    padding-bottom: 10px;
+}
+
+.update-edit-btn {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    cursor: pointer;
 }
 
 .forgot-password-btn {
@@ -42,4 +70,30 @@
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media (max-width: 470px) {
+    .edit-account-main-box h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .edit-account-main-box {
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .edit-account-main-box h1 {
+        font-size: 20px;
+        width: 260px;
+    }
+
+    .edit-account-main-box {
+        width: 270px;
+    }
+
+    .email-edit {
+        width: 250px;
+    }
 }

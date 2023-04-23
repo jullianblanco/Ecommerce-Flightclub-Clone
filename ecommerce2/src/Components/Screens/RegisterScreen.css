@@ -3,8 +3,8 @@
     height: 100vh;
 }
 
-.main-account {
-    height: 88.8vh;
+.main-account-register {
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
 
 .main-box-container-register {
     background-color: white;
-    height: 615px;
+   padding-bottom: 20px;
     width: 500px;
     z-index: 80;
     position: absolute;
@@ -204,3 +204,42 @@
     font-weight: 700;
 }
 
+@media (max-width: 768px) {
+    .main-box-container-register {
+        width: 400px;
+    }
+
+    .signin-btn {
+      width: 83%;
+    }
+}
+
+@media (max-width: 470px) {
+    .main-box-container-register {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-account-register {
+        height: 100vh;
+    }
+
+
+
+  
+
+    .emailAddress, .password-register, .confirm-password, .firstName, .lastName, .firstName-error-styling, .lastName-error-styling,.email-error-styling, .password-error-styling, .confirm-password-error  {
+        width: 300px;
+        margin-left: 25%;
+    }
+
+
+}
+
+@media (max-width: 340px) {
+
+    .emailAddress, .password-register, .confirm-password, .firstName, .lastName, .firstName-error-styling, .lastName-error-styling,.email-error-styling, .password-error-styling, .confirm-password-error {
+        width: 260px;
+        margin-left: 28%;
+    }
+}

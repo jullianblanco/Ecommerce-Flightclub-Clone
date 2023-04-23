@@ -26,7 +26,6 @@
     border-bottom: 1px solid black;
     height: 100px;
     width: 100%;
-    margin-top: -50px;
 }
 
 .user-account-logout {
@@ -95,3 +94,145 @@
     cursor: pointer;
 }
 
+@media (max-width: 1000px) {
+    .account-main-box {
+        width: 800px;
+    }
+
+    .user-account-logout {
+        margin-left: 420px;
+    }
+
+  .payment-info h1, .account-info h1, .address-info h1, .order-info h1 {
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width: 805px) {
+    .account-main-box {
+        width: 700px;
+    }
+
+    .user-account-logout {
+        margin-left: 320px;
+    }
+
+  .payment-info h1, .account-info h1, .address-info h1, .order-info h1 {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 710px) {
+    .account-main-box {
+        width: 600px;
+    }
+
+    .user-account-logout {
+        margin-left: 220px;
+    }
+
+  .payment-info h1, .account-info h1, .address-info h1, .order-info h1 {
+    font-size: 20px;
+  }
+
+  .all-account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+  }
+
+}
+
+@media (max-width: 610px) {
+    .account-main-box {
+        width: 400px;
+    }
+
+    .user-account-logout {
+        margin-left: 20px;
+    }
+
+  .payment-info h1, .account-info h1, .address-info h1, .order-info h1 {
+    font-size: 20px;
+  }
+
+  .all-account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+  }
+
+}
+
+@media (max-width: 410px) {
+
+    .account-main {
+        height: 900px;
+    }
+
+    .account-main-box {
+        width: 320px;
+        margin-bottom: 200px;
+    }
+
+    .user-account-logout {
+        margin-left: 20px;
+    }
+
+  .payment-info h1, .account-info h1, .address-info h1, .order-info h1 {
+    font-size: 20px;
+  }
+
+  .all-account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+  }
+
+  .account-header {
+   
+   height: 200px;
+   gap: 15px;
+   flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+
+    .account-main {
+        height: 100vh;
+    }
+
+    .account-main-box {
+        width: 270px;
+    }
+
+    .user-account-logout {
+        margin-left: 20px;
+    }
+
+  .payment-info h1, .account-info h1, .address-info h1, .order-info h1 {
+    font-size: 15px;
+  }
+
+  .all-account-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+  }
+
+  .account-header {
+   height: 200px;
+   gap: 15px;
+   flex-direction: column;
+  }
+
+}

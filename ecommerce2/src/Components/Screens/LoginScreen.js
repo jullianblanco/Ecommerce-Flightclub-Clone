@@ -83,9 +83,7 @@ return(
     <div className="form-group">
       <input type="password" className="password" placeholder="Password" onChange={e => setLoginPassword(e.target.value)}/>
      </div>
-     <div className='forgot-password-container'>
-      <a href="#" className="forgot-password">Forgot Password?</a>
-     </div>
+
 
 
     <div className='login-error'>
@@ -94,12 +92,7 @@ return(
     
 
      <button type="submit" className="signin-btn">Sign in</button>
-     <div className="signin-keepin">
-      <input type="checkbox" className="checkbox"/>
-      <label className="keep-signin" htmlFor="keep-signed-in">Keep me signed in</label>
-
-      
-     </div>
+  
     
      
 </form>

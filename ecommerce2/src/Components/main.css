@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   object-fit: contain;
-  align-items: center;
   justify-content: center;
 }
 
@@ -12,7 +11,7 @@
    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-position: 0% 38%;
+   
 }
 
 .main-text {
@@ -31,6 +30,134 @@ margin-top: 20px;
 
 .container {
   position: absolute;
-  margin-top: -218px;
   margin-right: 60rem;
+  margin-left: 12%;
+  margin-bottom: 20%;
+  width: 500px;
+}
+
+@media (max-width: 1500px) {
+  .main img {
+    content: url('https://images.pexels.com/photos/1370308/pexels-photo-1370308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+
+  .main {
+    align-items: inherit;
+    height: 70vh;
+  }
+
+  .container {
+    margin-left: 2% ;
+  }
+
+  .main-text {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .main img {
+    content: url('https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+
+  .main-text {
+    width: 500px;
+    color:  white;
+  }
+
+  .main-link {
+    color: white;
+  }
+
+}
+
+@media (max-width: 570px) {
+  .main img {
+    content: url('https://images.pexels.com/photos/1031955/pexels-photo-1031955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+
+  .main-text {
+    width: 400px;
+    color:  white;
+    font-size: 30px;
+  }
+
+  .container {
+    width: 400px;
+  }
+
+  .main-link {
+    color: white;
+  }
+
+
+
+}
+
+@media (max-width: 420px) {
+
+  .main-text {
+    width: 300px;
+    color:  white;
+    font-size: 30px;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  .main-link {
+    color: white;
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 340px) {
+
+  .main-text {
+    width: 250px;
+    color:  white;
+    font-size: 20px;
+  }
+
+  .container {
+    width: 250px;
+  }
+
+  .main-link {
+    color: white;
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .main {
+    height: 50vh;
+  }
+
+}
+
+@media (max-width: 280px) {
+
+  .main-text {
+    width: 160px;
+    color:  white;
+    font-size: 18px;
+  }
+
+  .container {
+    width: 160px;
+  }
+
+  .main-link {
+    color: white;
+    font-size: 12px;
+    width: 160px;
+  }
+
+  .main {
+    height: 50vh;
+  }
+
 }

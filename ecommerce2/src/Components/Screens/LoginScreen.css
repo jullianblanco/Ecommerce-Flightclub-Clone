@@ -93,7 +93,6 @@
     padding: 17px;
     margin-bottom: 10px;
     border: 1px solid #D3D3D3;
-    margin-bottom: 20px;
 }
 
 .forgot-password-container {
@@ -156,4 +155,49 @@
     padding: 17px;
     margin-bottom: 10px;
     border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+    .main-box-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    .signin-btn {
+      width: 83%;
+    }
+}
+
+@media (max-width: 470px) {
+    .main-box-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .signin-btn {
+      width: 65%;
+     
+    }
+
+    .email, .password {
+        width: 300px;
+        margin-left: 25%;
+    }
+
+
+}
+
+@media (max-width: 340px) {
+
+    .email, .password {
+        width: 260px;
+        margin-left: 28%;
+    }
+}
+
+
+@media (max-width: 295px) {
+.login-error {
+    margin-left: 10%;
+}
 }

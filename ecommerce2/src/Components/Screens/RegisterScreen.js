@@ -130,7 +130,7 @@ function RegisterScreen() {
   <NavList /> 
     
     
-    <div className='main-account'>
+    <div className='main-account-register'>
     <img className='main-img' src='https://images.unsplash.com/photo-1645888932334-5efcd35cf178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1046&q=80' />
      <div className='main-box-container-register'>
         

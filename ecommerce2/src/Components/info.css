@@ -15,8 +15,8 @@
 }
 
 .info-img {
-    width: 30vw;
-    height: 47vh;
+    width: 600px;
+    height: 400px;
 }
 
 .super-container {
@@ -36,7 +36,6 @@ font-family: Lato;
 font-size: 0.9rem;
 color: grey;
 margin-top: 30px;
-width: 550px;
 height: 50px;
 }
 
@@ -44,4 +43,73 @@ height: 50px;
 color: black;
 font-family: Lato;
 margin-top: 60px;
+}
+
+@media (max-width: 1300px ) {
+    .info-container {
+        flex-direction: column;
+        max-width: inherit;
+    }
+
+    .info-p {
+        height: 0px;
+        margin-top: 10px;
+    }
+
+     
+}
+
+@media (max-width: 670px ) {
+.info-img {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.info-h1, .info-p, .info-link {
+    margin: 0 auto;
+}
+
+.info-link {
+    padding-top: 60px;
+}
+
+.info-h1 {
+    padding-top: 35px ;
+}
+
+.info-p {
+    padding-top: 10px ;
+}
+
+     
+}
+
+@media (max-width: 560px ) {
+    .info-img {
+        width: 400px;
+        height: 300px;
+    }   
+
+}
+
+@media (max-width: 450px ) {
+    .info-img {
+        width: 300px;
+        height: 250px;
+    }   
+}
+
+@media (max-width: 350px ) {
+    .info-img {
+        width: 250px;
+        height: 200px;
+    }   
+}
+
+@media (max-width: 280px ) {
+    .info-img {
+        width: 230px;
+        height: 200px;
+    }   
 }

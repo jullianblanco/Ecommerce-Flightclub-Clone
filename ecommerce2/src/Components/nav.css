@@ -10,7 +10,7 @@
 
 
 .header {
-    padding: 5px 20px;
+    padding: 15px 20px;
     background-color: black;
 
 }
@@ -117,4 +117,29 @@ transition: .2s;
         font-size: 19px;
     }
 }
+
+@media (max-width: 400px) {
+    .logo-container-nav, .logo-container-nav img{
+        height: 40px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo-container-nav, .logo-container-nav img{
+        height: 40px;
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 270px) {
+    .logo-container-nav, .logo-container-nav img{
+        height: 40px;
+        width: 100px;
+    }
+}
+
+
+
 

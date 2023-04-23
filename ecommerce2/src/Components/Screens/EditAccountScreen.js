@@ -69,12 +69,12 @@ const handleSubmit = async (e) => {
           
           <h4>Email Address</h4>
       
-        <input type="email" value={email}  onChange={(e) => setEmail(e.target.value)} />
+        <input className='email-edit' type="email" value={email}  onChange={(e) => setEmail(e.target.value)} />
 
 
         <div className='edit-save-cancel-btns'>
-        <button type="submit" onClick={e => handleSubmit(e)}>Update</button>
-        <button className='cancel-btn' onClick={() => navigate('/account', { state: { firstName, lastName, email } })}>Cancel</button>
+        <button className='update-edit-btn' type="submit" onClick={e => handleSubmit(e)}>Update</button>
+        <button className='cancel-edit-btn' onClick={() => navigate('/account', { state: { firstName, lastName, email } })}>Cancel</button>
         </div>
        
 

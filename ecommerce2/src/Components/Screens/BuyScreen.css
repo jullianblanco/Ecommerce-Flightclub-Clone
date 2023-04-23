@@ -35,3 +35,47 @@ letter-spacing: .5px;
 font-family: Lato;
 letter-spacing: 1px;
 }
+
+@media (max-width: 500px) {
+    .buyscreen-main {
+        width: 350px;
+    }
+
+    .buyscreen-main h1 {
+        font-size: 20px;
+    }
+
+    .buyscreen-main p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 410px) {
+    .buyscreen-main {
+        width: 300px;
+    }
+
+    .buyscreen-main h1 {
+        font-size: 18px;
+    }
+
+    .buyscreen-main p {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .buyscreen-main {
+        width: 240px;
+    }
+
+    .buyscreen-main h1 {
+        font-size: 16px;
+    }
+
+    .buyscreen-main p {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+}

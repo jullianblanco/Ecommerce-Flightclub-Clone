@@ -58,3 +58,48 @@
     color: black;
     text-decoration: underline;
 }
+
+@media (max-width: 1800px) {
+    .skills-main {
+        width: 300px;
+        margin: 0px;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1350px) {
+    .skills-main {
+        width: 90%;
+        margin: 0px;
+    }
+
+    .skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .aboutscreen-description {
+        width: 80%;
+    }
+
+    .skills h1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
