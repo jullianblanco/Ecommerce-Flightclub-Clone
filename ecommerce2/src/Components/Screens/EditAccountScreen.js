@@ -1,5 +1,5 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './EditAccountScreen.css';
 import InputBtn from '../input1';
 import Logo from '../logo';
@@ -44,6 +44,10 @@ const handleSubmit = async (e) => {
            console.error(error);
         }
 }
+
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
 
 
 

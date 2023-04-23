@@ -54,11 +54,11 @@
 
 .account-info {
     grid-area: account-info;
-   margin-top: 10px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: 20px;
+   padding-top: 30px;
+   margin-bottom: 10px;
    
 }
 
@@ -142,6 +142,10 @@
     flex-direction: column;
     gap: 0px;
     
+  }
+
+  .account-info {
+    border-right: 1px solid black;
   }
 
 }

@@ -40,7 +40,9 @@ function AccountScreen() {
     }
 
 
-    
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
 
 
 

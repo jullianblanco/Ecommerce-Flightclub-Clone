@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './BuyScreen.css';
 import InputBtn from '../input1';
@@ -9,6 +9,10 @@ import EmailBtn from '../EmailBtn';
 import SecondFooter from '../footer-secondary';
 
 const BuyScreen = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='buyscreen'>

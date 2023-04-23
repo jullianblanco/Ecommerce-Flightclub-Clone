@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './CartScreen.css';
 import InputBtn from '../input1';
@@ -18,6 +18,10 @@ const CartScreen = () => {
  function SendToBuy() {
   navigate('/buyscreen');
  }
+
+ useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
  
 
 
