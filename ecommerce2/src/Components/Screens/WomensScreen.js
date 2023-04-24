@@ -1,5 +1,4 @@
 import { Link} from 'react-router-dom';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';
@@ -26,7 +25,7 @@ const ProductDataItems = ProductData.filter(item => item.category === 'women').m
  <div key={ProductDataItems.id}>
   <Link to={`/sneakers/products/${ProductDataItems.id}`} style={{textDecoration: 'none'}}>  
      <div className='Product'> 
-       <img className='product img' src={ProductDataItems.img} />
+       <img className='product img' src={ProductDataItems.img} alt='product'/>
        <h1 className='Title'>{ProductDataItems.title}</h1>
        <p className='Description'>{ProductDataItems.description}</p>
      </div>

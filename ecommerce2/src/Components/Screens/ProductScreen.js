@@ -1,6 +1,5 @@
 import {React, useState, useEffect} from 'react';
 import './ProductScreen.css';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import '../footer.css';
@@ -8,9 +7,8 @@ import FooterMain from '../footer-main';
 import EmailBtn from '../EmailBtn';
 import '../footer-secondary.css';
 import SecondFooter from '../footer-secondary';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import Button from '../Button';
-import HomeScreen from './HomeScreen';
 import { ExtraItems, NewReleases } from "../../data";
 import { StaffPicks } from "../../data";
 import { MusicInfluence } from "../../data";
@@ -86,7 +84,7 @@ const ProductScreen = () => {
   <NavList /> 
 
       <div className='Product-Section'>
-       <img className='Product-Screen-img' src={img} ></img>
+       <img className='Product-Screen-img' src={img} alt='product'></img>
         <div className='Product-Screen-info-container'>
           <div className='Product-Screen-info'>
             <h1 className='Product-Screen-Title'>{title}</h1>

@@ -1,6 +1,4 @@
-import { Link} from 'react-router-dom';
 import { useEffect } from 'react';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';

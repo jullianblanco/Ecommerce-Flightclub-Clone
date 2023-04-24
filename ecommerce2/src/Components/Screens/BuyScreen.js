@@ -1,7 +1,5 @@
-import { useState, useEffect} from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useEffect} from 'react';
 import './BuyScreen.css';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';

@@ -1,7 +1,6 @@
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './AccountScreen.css';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';
@@ -30,9 +29,6 @@ function AccountScreen() {
     }
 
 
-    function handleUpdate(newUser) {
-      setUser(newUser);
-    }
 
     function handleLogout() {
       setUser(user);

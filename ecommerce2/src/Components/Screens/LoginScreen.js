@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './LoginScreen.css';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';
@@ -65,10 +64,10 @@ return(
 
 
 <div className='main-account'>
-<img className='main-img' src='https://images.unsplash.com/photo-1645888932334-5efcd35cf178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1046&q=80' />
+<img className='main-img' src='https://images.unsplash.com/photo-1645888932334-5efcd35cf178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1046&q=80' alt='background'/>
  <div className='main-box-container'>
       <div className='login-section'>
-      <a className='login-btn1'>Sign In</a>
+      <a href className='login-btn1'>Sign In</a>
       <Link to='/register' className='login-btn2' style={{ textDecoration: 'none'}}>
         Register
       </Link>

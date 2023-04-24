@@ -1,4 +1,5 @@
 import './logo.css'
+// used on older version of project, no longer in production
 
 function Logo() {
     return (

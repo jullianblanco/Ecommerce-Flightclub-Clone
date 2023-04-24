@@ -1,7 +1,6 @@
-import { useState, useEffect } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import './CartScreen.css';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';
@@ -36,7 +35,7 @@ const CartScreen = () => {
             <div className='cart-title'>
              <h3>{item.description}</h3>
              <h4>{item.title}</h4>
-             <img className='cart-img' src = {item.img} />
+             <img className='cart-img' src ={item.img} alt='product'/>
             </div>
            
             <div className='cart-description'>

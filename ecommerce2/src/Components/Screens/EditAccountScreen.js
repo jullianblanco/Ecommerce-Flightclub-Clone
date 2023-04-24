@@ -1,7 +1,6 @@
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import './EditAccountScreen.css';
-import InputBtn from '../input1';
 import Logo from '../logo';
 import NavList from '../nav';
 import FooterMain from '../footer-main';
@@ -16,8 +15,7 @@ function EditAccount() {
     const [email, setEmail] = useState(location.state?.email || '');
     const firstName = location.state?.firstName;
     const lastName = location.state?.lastName;
-    const [newEmail, setNewEmail] = useState(email);
-    const [message, setMessage] = useState('');
+
 
    
     const navigate = useNavigate();
@@ -35,12 +33,10 @@ const handleSubmit = async (e) => {
               body: JSON.stringify({ email, oldEmail: location.state?.email, }),
             });
             const data = await response.json();
-            //setMessage(data.message);
             console.log(data);
             navigate('/account', { state: { firstName, lastName, email } });
 
         } catch (error) {
-           // setMessage('Error updating email');
            console.error(error);
         }
 }
@@ -67,7 +63,7 @@ useEffect(() => {
    
 
     <p style={{ marginBottom: 90, fontSize: 14 }}>{firstName} {lastName}</p>
-    {message && <p>{message}</p>}
+    
 
     
           
